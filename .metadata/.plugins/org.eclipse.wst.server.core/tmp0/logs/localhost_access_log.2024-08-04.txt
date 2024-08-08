@@ -1,0 +1,15 @@
+127.0.0.1 - - [04/Aug/2024:18:59:37 -0400] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:18:59:52 -0400] "GET /NextGenRent/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:18:59:57 -0400] "GET /NextGenRent/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:00:01 -0400] "GET /NextGenRent/NextGenRentServlet HTTP/1.1" 200 6503
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:00:13 -0400] "POST /NextGenRent/FilterServlet HTTP/1.1" 200 3220
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:00:16 -0400] "GET /NextGenRent/NextGenRentServlet HTTP/1.1" 200 6502
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:00:20 -0400] "POST /NextGenRent/SortServlet HTTP/1.1" 200 6502
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:00:25 -0400] "GET /NextGenRent/NextGenRentServlet HTTP/1.1" 200 6502
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:00:38 -0400] "GET /NextGenRent/NextGenRentServlet HTTP/1.1" 200 6503
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:01:38 -0400] "POST /NextGenRent/NewAppServlet HTTP/1.1" 200 6795
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:01:43 -0400] "GET /NextGenRent/NextGenRentServlet HTTP/1.1" 200 6796
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:01:48 -0400] "POST /NextGenRent/SortServlet HTTP/1.1" 200 6796
+127.0.0.1 - - [04/Aug/2024:19:05:57 -0400] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:08:25 -0400] "GET /NextGenRent/NextGenRentServlet HTTP/1.1" 200 6795
+0:0:0:0:0:0:0:1 - - [04/Aug/2024:19:13:13 -0400] "GET /NextGenRent/NextGenRentServlet HTTP/1.1" 200 6795

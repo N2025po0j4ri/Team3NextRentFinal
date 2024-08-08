@@ -1,0 +1,52 @@
+
+package apprepo;
+
+import static org.junit.Assert.*;
+
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class SortServletTest {
+    private SortServlet sortServlet;
+    private HttpServletRequest request;
+    private HttpServletResponse response;
+    private PrintWriter writer;
+
+
+	@Test
+	public void testSortByAppName() {
+		//fail("Not yet implemented");
+		//SortServlet sortServlet = new SortServlet();
+		List<Application> applications = new ArrayList<Application>();
+		Application app1 = new Application();
+		app1.setName("A");
+		applications.add(app1);
+		Application app2 = new Application();
+		app2.setName("B");
+		applications.add(app2);
+		printAppList(applications);
+		sortServlet.sortByAppName(applications);
+		printAppList(applications);
+		assertTrue(applications.get(0).getName().equals("A"));
+		assertTrue(applications.get(1).getName().equals("B"));
+	}
+	
+	public void printAppList(List<Application> appList) {
+		
+		for (Application app:appList){
+			System.out.print(app.getName()+ " ");
+		}
+		System.out.println();
+	}
+
+	
+}

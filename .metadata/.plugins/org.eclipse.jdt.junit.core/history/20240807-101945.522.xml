@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppDaoTest" project="NextGenRent" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="apprepo.AppDaoTest" time="0.638">
+    <testcase name="testConnection" classname="apprepo.AppDaoTest" time="0.505"/>
+    <testcase name="testGetAppData" classname="apprepo.AppDaoTest" time="0.068"/>
+    <testcase name="testAddRecord" classname="apprepo.AppDaoTest" time="0.065"/>
+  </testsuite>
+</testrun>

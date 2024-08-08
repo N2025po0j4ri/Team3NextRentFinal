@@ -1,0 +1,32 @@
+package apprepo;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.Test;
+
+public class AppDaoTest {
+
+	@Test
+	public void testGetAppData() {
+		// fail("Not yet implemented");
+		AppDao 	appDao = new AppDao();
+		List<Application> applications = null;
+		try {
+			applications = AppDao.getAppData();
+			assertTrue(applications.size()!=0);
+		} catch (ClassNotFoundException e) {			
+			e.printStackTrace();
+			fail("Dao Threw exception");
+		}
+		
+	}
+	
+	@Test
+	public void testAddRecord() {
+		// fail("Not yet implemented");
+		AppDao 	appDao = new AppDao();
+		Application app = new Application();
+
+}

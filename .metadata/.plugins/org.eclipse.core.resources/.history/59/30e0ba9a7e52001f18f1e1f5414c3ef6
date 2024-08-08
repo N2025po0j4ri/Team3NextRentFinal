@@ -1,0 +1,27 @@
+package apprepo;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+public class SortServletTest {
+
+	@Test
+	public void test() {
+		//fail("Not yet implemented");
+		SortServlet sortServlet = new SortServlet();
+		List<Application> applications = new ArrayList<Application>();
+		Application app1 = new Application();
+		app1.setName("A");
+		applications.add(app1);
+		Application app2 = new Application();
+		app1.setName("B");
+		applications.add(app2);
+		System.out.println(applications);
+		sortServlet.sortByAppName(null);
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SortServletTest" project="NextGenRent" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="apprepo.SortServletTest" time="652.903">
+    <testcase name="testDoPost" classname="apprepo.SortServletTest" time="34.132"/>
+    <testcase name="testSortByAppName" classname="apprepo.SortServletTest" time="0.041"/>
+  </testsuite>
+</testrun>
